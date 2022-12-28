@@ -1,0 +1,15 @@
+.headerwrap {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 14vh;
+    width: 78vw;
+}
+
+p {
+    padding: 5%;
+    width: max-content;
+    opacity: 0.6;
+    font-size: 1rem;
+}
