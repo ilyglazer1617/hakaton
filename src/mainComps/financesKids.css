@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
+
+.coteretTheme {
+    font-family: Acme;
+    font-weight: 7;
+    font-size: xx-large;
+}
+
+.sapakimWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sapakWraper {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 44vw;
+}
+
+
+
+.banner {
+    border: 2px double rgb(231, 219, 219);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+
+    font-family: Acme;
+    font-weight: 7;
+    background-color: rgb(231, 219, 219);
+
+}
+
+.banner_picture {
+    border-radius: 60%;
+    width: 80px;
+    height: 80px;
+    border: 4px solid white;
+}
+
+.instegram {
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
+
+/* .instegram :hover{
+    
+} */
+.facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
+
+.sapakName {
+    font-family: Acme;
+    font-weight: 700;
+}
+
+.adress {
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
+
+.under {
+    font-size: 70%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.delete {
+    margin-left: 90%;
+    border: none;
+    background-color: rgb(231, 219, 219);
+}
+
+.addingWrap {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.inputadd {
+    width: 90px;
+}

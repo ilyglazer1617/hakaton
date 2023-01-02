@@ -1,4 +1,48 @@
-footer {
-    justify-content: space-between;
+.footer {
     display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+}
+
+.footerbutton {
+    border: none;
+    padding: 1%;
+    background-color: white;
+
+}
+
+.footerButtons {
+    /* display: flex;
+    flex-direction: row;
+    width: max-content;
+    gap: 1%; */
+    border: 2px solid #e7e7e7;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    justify-content: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 15px;
+    width: 40%;
+
+}
+
+.adminButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+}
+
+.adminButton:hover {
+    background-color: black;
 }

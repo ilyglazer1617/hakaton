@@ -1,15 +1,31 @@
 .headerwrap {
     display: flex;
     justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: 14vh;
-    width: 78vw;
+    align-items: center;
+    gap: 12%;
+    width: 86%;
+    /* height: 14vh; */
+    min-height: 7vh;
+
 }
 
-p {
-    padding: 5%;
+
+.headLink {
+    /* padding: 3% !important; */
     width: max-content;
+    height: min-content;
     opacity: 0.6;
     font-size: 1rem;
+    text-decoration: none;
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
+}
+
+.logo {
+    width: 5.8%;
+    height: 11%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }

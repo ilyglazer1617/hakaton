@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
+
+.aboutusWrap {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.homeImg {
+    width: 36%;
+}
+
+.coteret {
+    font-family: Acme;
+    font-size: 285%;
+    padding-bottom: 3%;
+}
+
+.middel {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.story {
+    font-family: Acme;
+    font-size: large;
+    width: 44%;
+}
